@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/safequeue
+/cmd/safequeue/safequeue
+
+# Test artifacts
+*.test
+*.out
+coverage.txt
+
+# Go build/work
+/bin/
+/dist/
+go.work
+go.work.sum
+
+# Local data dir (durable queue logs)
+/data/
+*.log
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
