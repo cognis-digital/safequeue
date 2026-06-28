@@ -18,6 +18,36 @@ dead-letter). The queue is file-backed and recovers its full state on restart.
 Maintainer: **Cognis Digital**
 License: **COCL 1.0**
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "queue": [
+    {
+      "id": 1,
+      "name": "my_queue",
+      "size": 5,
+      "messages": [
+        {"data": "msg_1"},
+        {"data": "msg_2"},
+        {"data": "msg_3"}
+      ]
+    }
+  ],
+  "stats": {
+    "enqueued": 10,
+    "dequeued": 5,
+    "size": 5
+  }
+}
+```
+
+<!-- cognis:example:end -->
+
 ## Install
 
 ```
